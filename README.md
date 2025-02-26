@@ -1,6 +1,6 @@
 # Setup
 ```bash
-git clone https://github.com/nore777/mern-backend-starter .
+git clone https://github.com/nore777/mern-backend-starter
 ```
 
 ```bash

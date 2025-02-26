@@ -1,13 +1,12 @@
 {
   "name": "nodejs_express_starter",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development node --loader=ts-node/esm --env-file=.env.dev --watch src/index.ts",
-    "prod": "NODE_ENV=production node --loader=ts-node/esm --env-file=.env.prod --watch src/index.ts",
+    "dev": "NODE_ENV=development npx tsx --env-file=.env.dev --watch ./src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "NODE_ENV=production node --env-file=.env.prod dist/index.js"
   },
   "keywords": [],
   "author": "",

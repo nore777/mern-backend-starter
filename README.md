@@ -1,14 +1,16 @@
 # Setup
 ```bash
-git clone https://github.com/nore777/mern-backend-starter
-```
-
-```bash
+mkdir backend
+cd backend
+git clone https://github.com/nore777/mern-backend-starter .
 npm install
+npm run dev
 ```
 
+## Building
 ```bash
-npm run dev
+npm run build
+npm run start
 ```
 
 # Routes, Authentication and Authorization

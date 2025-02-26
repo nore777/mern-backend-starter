@@ -12,6 +12,16 @@ npm run dev
 ```
 
 # Routes, Authentication and Authorization
+
+```bash
+└───📂 routes/
+    └───📄 index.ts
+
+    └───📄 userRoute.ts
+        └───🔵 POST    '/user/login'   // login page endpoints
+        └───🔵 POST    '/user/register' // register page endpoints
+```
+
 All routes go in the **/routes** directory. After creating a custom route, to export it in the
 **/routes/index.ts** file. It is then automatically added to Express.
 Authentication and Authorization is done using two middleware functions:

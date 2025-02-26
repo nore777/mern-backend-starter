@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import jwt from 'jsonwebtoken'
-import { Role } from '../types/role.ts'
+import { Role } from '../types/role'
 
 // Verifies the validity of the JWT, stores user information in Request object
 export const authenticate = async (req: Request, res: Response, next: NextFunction): Promise<any> => {

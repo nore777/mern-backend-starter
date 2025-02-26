@@ -1,6 +1,6 @@
 import { Router } from "express"
-import loginController from "../controllers/user/loginController.ts"
-import registerController from "../controllers/user/registerController.ts"
+import loginController from "../controllers/user/loginController"
+import registerController from "../controllers/user/registerController"
 
 const router = Router()
 

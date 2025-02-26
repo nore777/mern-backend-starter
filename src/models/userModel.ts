@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { Role } from '../types/role.ts';
+import { Role } from '../types/role';
 
 
 interface IUser {

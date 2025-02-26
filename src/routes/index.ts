@@ -1,4 +1,4 @@
-import userRoute from './userRoute.ts'
+import userRoute from './userRoute'
 
 export default {
   userRoute,

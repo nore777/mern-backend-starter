@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { userLogin } from "../../services/userService.ts"
+import { userLogin } from "../../services/userService"
 
 const login = async (req: Request, res: Response): Promise<any> => {
   const { username, password } = req.body

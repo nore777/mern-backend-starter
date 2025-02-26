@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
-import registerFormValidation from "../../utils/validation/form/registerValidation.ts"
-import { createUser } from "../../services/userService.ts"
+import registerFormValidation from "../../utils/validation/form/registerValidation"
+import { createUser } from "../../services/userService"
 
 
 const register = async (req: Request, res: Response): Promise<any> => {

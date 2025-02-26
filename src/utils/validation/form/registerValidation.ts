@@ -1,14 +1,14 @@
-import usernameValidation from "../usernameValidation.ts"
-import emailValidation from "../emailValidation.ts"
-import passwordValidation from "../passwordValidation.ts"
+import usernameValidation from "../usernameValidation"
+import emailValidation from "../emailValidation"
+import passwordValidation from "../passwordValidation"
 
 function registerFormValidation(username: string, email: string, password: string, repeatPassword: string, TOSPP: boolean): boolean | string {
   if (!username || !email || !password || !repeatPassword) {
     return "registerEmptyFields"
   }
-  
+
   // terms of service and privacy policy
-  if (TOSPP !== true) { 
+  if (TOSPP !== true) {
     return "registerEmptyTOSPP"
   }
 

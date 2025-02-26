@@ -2,11 +2,11 @@ import http from 'http'
 import cors from 'cors'
 import express from 'express'
 
-import { initRoutes } from './utils/routes.ts'
-import { startServer } from './utils/server.ts'
-import { connectToDatabase } from './utils/db.ts'
+import { initRoutes } from './utils/routes'
+import { startServer } from './utils/server'
+import { connectToDatabase } from './utils/db'
 
-import routes from './routes/index.ts'
+import routes from './routes/index'
 
 
 // init server
